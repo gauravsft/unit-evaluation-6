@@ -1,0 +1,62 @@
+.hp2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.hp22{
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    
+}
+
+.hp22>img{
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    margin: 20px;
+}
+
+.hp22>p,.hp22>h3{
+    font-size: large;
+    margin-top: 0px;
+    margin: 20px;
+    
+}
+
+
+
+/* movie details */
+
+.hp3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 400px;
+    width: 80%;
+    gap: 20px;
+    margin: auto;
+    margin-top: 50px; ;
+}
+
+
+
+.hp3>div>img{
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+}
+
+.hp3>div>h3,.hp3>div>p{
+    margin: 2%;
+}
